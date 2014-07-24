@@ -1,0 +1,11 @@
+#!/bin/bash
+# Script Version: 1.0
+#
+# 24-07-2014 Marco Longo
+#
+# Copyright (c) 2014 by Marco Longo
+
+
+if [ -f /var/run/reboot-required ]; then
+  shutdown -r now
+fi
